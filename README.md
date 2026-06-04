@@ -11,3 +11,17 @@ esp32 setup notes
             VERBATIM
         )
     endif()
+
+
+5.5.4 with vscode extension prblem 
+$env_var_pairs = @{
+    "IDF_TOOLS_PATH" = "C:\Espressif\tools"
+    "IDF_COMPONENT_LOCAL_STORAGE_URL" = "file://C:\Espressif\tools"
+    "IDF_PATH" = "C:\esp\v5.5.4\esp-idf"
+    "OPENOCD_SCRIPTS" = "C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20251215/openocd-esp32/share/openocd/scripts"
+    "IDF_CCACHE_ENABLE" = "1"
+    "ESP_ROM_ELF_DIR" = "C:\Espressif\tools\esp-rom-elfs\20241011/"
+    "IDF_PYTHON_ENV_PATH" = "C:\Espressif\tools\python\v5.5.4\venv"
+}
+
+missing some items in file "C:\Espressif\tools\Microsoft.v5.5.4.PowerShell_profile.ps1"
